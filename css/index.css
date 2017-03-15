@@ -105,7 +105,7 @@ body, html {
     border: none;
 }
 .about{
-    background-color:#707070;
+    background-color:#D9D9D9;
 }
 .skills{
     background-color:#F8F8F8;
@@ -114,17 +114,41 @@ body, html {
     background-color:#2BB3DD;
 }
 .education{
-    background-color:#D8D8D8;
+    background-color:#EDEDED;
 }
 
 .contact{
     background-color:#00BDBB;
 }
+.about-txt{
+    color: #808080;
+    font-size: 16px;
+    padding: 40px;
+    vertical-align: middle;
+}
+.about-img-div{
+    padding: 20px;
+}
+
+/*.about-img{
+    max-width: 100px;
+    max-height: 100px;
+}*/
+#about-img{
+    max-width: 250px;
+    max-height: 250px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
+}
+
 .custom-circle{
   margin: 0 auto !important;
 }
 .skill-wrapper{
     padding: 25px;
+}
+.skill-wrapper1{
+    padding: 25px 25px 100px 25px;
 }
 .skill-name{
     font-size : 20px;
@@ -139,6 +163,14 @@ body, html {
     font-weight: bold;
     padding-top: 75px;
     padding-bottom: 75px;
+    letter-spacing: 0.5px;
+}
+.sub-header-about{
+    font-size: 36px;
+    /*color: orange;*/
+    font-weight: bold;
+    padding-top: 75px;
+    padding-bottom: 30px;
     letter-spacing: 0.5px;
 }
 .sub-header-workex{
