@@ -41,10 +41,11 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Open Sans', serif;
 }
 .bg {
     /* The image used */
-    background-image: url('../img/programmer2.jpg');
+    background-image: url('../img/programmer3.jpg');
 
     /* Full height */
     height: 100%;
@@ -70,6 +71,15 @@ body, html {
     left: 50%;
     transform: translate(-50%,180%);
     color: white;
+}
+.dev-btn-border{
+    min-width: 480px;
+    min-height: 160px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-5%);
 }
 .btn-primary-outline{
     background-color: transparent;
@@ -125,6 +135,7 @@ body, html {
     font-size: 16px;
     padding: 40px;
     vertical-align: middle;
+    font-family: 'Open Sans', serif;
 }
 .about-img-div{
     padding: 20px;
@@ -160,7 +171,7 @@ body, html {
 .sub-header{
     font-size: 36px;
     /*color: orange;*/
-    font-weight: bold;
+    font-weight: 300;
     padding-top: 75px;
     padding-bottom: 75px;
     letter-spacing: 0.5px;
@@ -168,7 +179,7 @@ body, html {
 .sub-header-about{
     font-size: 36px;
     /*color: orange;*/
-    font-weight: bold;
+    font-weight: 300;
     padding-top: 75px;
     padding-bottom: 30px;
     letter-spacing: 0.5px;
@@ -176,7 +187,7 @@ body, html {
 .sub-header-workex{
     font-size: 36px;
     color: white;
-    font-weight: bold;
+    font-weight: 300;
     padding-top: 75px;
     padding-bottom: 55px;
     letter-spacing: 0.5px;
@@ -185,7 +196,7 @@ body, html {
 .sub-header-education{
     font-size: 36px;
     color: #5C5C5C;
-    font-weight: bold;
+    font-weight: 300;
     padding-top: 75px;
     padding-bottom: 55px;
     letter-spacing: 1px;
