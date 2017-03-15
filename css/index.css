@@ -127,9 +127,14 @@ body, html {
     background-color:#EDEDED;
 }
 
-.contact{
-    background-color:#00BDBB;
+.projects{
+    background-color:#2BB3DD;
 }
+.contact{
+    /*background-color:#00BDBB;*/
+    background-color:#696969;
+}
+
 .about-txt{
     color: #808080;
     font-size: 16px;
@@ -195,12 +200,12 @@ body, html {
 }
 .sub-header-education{
     font-size: 36px;
-    color: #5C5C5C;
+    /*color: #5C5C5C;*/
     font-weight: 300;
     padding-top: 75px;
     padding-bottom: 55px;
     letter-spacing: 1px;
-    text-shadow: 1px 1px 3px #808080;
+    /*text-shadow: 1px 1px 3px #808080;*/
 }
 .sub-header-contact{
     font-size: 36px;
@@ -296,6 +301,20 @@ body, html {
     color: #707070;
     font-weight: bolder;
 }
+.thumb{
+    padding: 5px;
+}
+.thumb-wrapper{
+    background-color: white;
+}
+
+.thumb1{
+    padding: 5px 5px 50px 5px;
+}
+
+.project-txt{
+    padding: 0px 15px 10px 15px;
+}
 .contact-icons{
     padding: 20px;
 }
@@ -318,6 +337,7 @@ body, html {
 .fa-instagram{
     color: #EDEDED;
 }
+
 /*.fa-3x:hover { color: white }
 .fa-3x:hover > i { color: grey; }*/
 .fa-stack:hover .fa.fa-linkedin { color: black; }
